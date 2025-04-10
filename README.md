@@ -2,6 +2,14 @@
 
 This project implements a pick and place operation using a Dobot Magician robotic arm, combined with computer vision for object detection. The system uses a RealSense camera for 3D object detection and the Dobot Magician arm for pick and place operations.
 
+## Project Demo
+
+<div align="center">
+  <img src="media/Realtime_detection.jpg" width="300" alt="Real-time Detection">
+  <img src="https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place/main/media/Pick_and_place.gif" width="300" alt="Pick and Place Demo">
+  <img src="media/color_cubes_detection.jpg" width="300" alt="Color Cubes Detection">
+</div>
+
 ## Project Structure
 
 ```
@@ -149,16 +157,6 @@ You can modify the following parameters in the code:
 - Real-time robot arm control
 - Belt conveyor integration
 - Comprehensive error handling and logging
-
-## Media
-
-Here are some visual aids to help you understand the project:
-
-- **Real-time Detection**: ![Real-time Detection](media/Realtime_detection.jpg)
-- **Pick and Place Demo**: ![Pick and Place Demo](https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place/main/media/Pick_and_place.gif)
-- **Color Cubes Detection**: ![Color Cubes Detection after the training](media/color_cubes_detection.jpg)
-
-These media files provide a visual overview of the project's functionality and setup.
 
 ## Troubleshooting
 
