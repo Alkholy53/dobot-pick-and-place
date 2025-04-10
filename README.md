@@ -21,6 +21,10 @@ This project implements a pick and place operation using a Dobot Magician roboti
 ├── calibration.py         # Camera-to-robot calibration module
 ├── calibration_data.npy   # Saved calibration data
 ├── detected_images/       # Directory for saving detection images
+├── media/                 # Media files (images and GIFs)
+│   ├── Realtime_detection.jpg
+│   ├── Pick_and_place.gif
+│   └── color_cubes_detection.jpg
 ├── train_yolov7.ipynb     # Jupyter notebook for training YOLOv7 model
 └── requirements.txt       # Python dependencies
 ```
@@ -71,6 +75,13 @@ The project includes a Jupyter notebook (`train_yolov7.ipynb`) for training a YO
 - Training process
 - Evaluation metrics
 - Model export
+
+### Custom Dataset Training
+The project demonstrates training on a custom dataset of color cubes from Roboflow. The training process includes:
+- Dataset preparation and annotation
+- Model fine-tuning
+- Performance evaluation
+- Real-time detection testing
 
 To train your own model:
 1. Prepare your dataset in YOLO format
@@ -138,6 +149,16 @@ You can modify the following parameters in the code:
 - Real-time robot arm control
 - Belt conveyor integration
 - Comprehensive error handling and logging
+
+## Media
+
+Here are some visual aids to help you understand the project:
+
+- **Real-time Detection**: ![Real-time Detection](media/Realtime_detection.jpg)
+- **Pick and Place Demo**: [View Pick and Place Demo](media/Pick_and_place.gif)
+- **Color Cubes Detection**: ![Color Cubes Detection after the training](media/color_cubes_detection.jpg)
+
+These media files provide a visual overview of the project's functionality and setup.
 
 ## Troubleshooting
 
