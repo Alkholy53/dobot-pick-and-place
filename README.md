@@ -7,7 +7,7 @@ This project implements a pick and place operation using a Dobot Magician roboti
 ### Real-time Object Detection and Pick-and-Place Operation
 <div align="center">
   <img src="media/Realtime_detection.jpg" width="300" alt="Real-time Detection">
-  <img src="https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place/main/media/Pick_and_place.gif" width="300" alt="Pick and Place Demo">
+  <img src="https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place_yolo/main/media/Pick_and_place.gif" width="300" alt="Pick and Place Demo">
 </div>
 <p align="center">
   <b>Left:</b> Real-time object detection using YOLOv10 with bounding boxes and confidence scores<br>
@@ -61,8 +61,8 @@ This project implements a pick and place operation using a Dobot Magician roboti
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/dobot-pick-and-place.git
-   cd dobot-pick-and-place
+   git clone https://github.com/Alkholy53/dobot-pick-and-place_yolo.git
+   cd dobot-pick-and-place_yolo
    ```
 
 2. Install the required Python packages:
