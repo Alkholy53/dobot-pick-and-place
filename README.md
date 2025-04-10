@@ -155,7 +155,7 @@ You can modify the following parameters in the code:
 Here are some visual aids to help you understand the project:
 
 - **Real-time Detection**: ![Real-time Detection](media/Realtime_detection.jpg)
-- **Pick and Place Demo**: [View Pick and Place Demo](media/Pick_and_place.gif)
+- **Pick and Place Demo**: ![Pick and Place Demo](https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place/main/media/Pick_and_place.gif)
 - **Color Cubes Detection**: ![Color Cubes Detection after the training](media/color_cubes_detection.jpg)
 
 These media files provide a visual overview of the project's functionality and setup.
