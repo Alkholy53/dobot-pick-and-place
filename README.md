@@ -4,11 +4,23 @@ This project implements a pick and place operation using a Dobot Magician roboti
 
 ## Project Demo
 
+### Real-time Object Detection and Pick-and-Place Operation
 <div align="center">
   <img src="media/Realtime_detection.jpg" width="300" alt="Real-time Detection">
   <img src="https://raw.githubusercontent.com/Alkholy53/dobot-pick-and-place/main/media/Pick_and_place.gif" width="300" alt="Pick and Place Demo">
+</div>
+<p align="center">
+  <b>Left:</b> Real-time object detection using YOLOv10 with bounding boxes and confidence scores<br>
+  <b>Right:</b> Automated pick-and-place operation demonstrating the robot's ability to detect, pick up, and place objects
+</p>
+
+### Custom Dataset Training Results
+<div align="center">
   <img src="media/color_cubes_detection.jpg" width="300" alt="Color Cubes Detection">
 </div>
+<p align="center">
+  <b>Color Cubes Detection:</b> Results from training the model on a custom dataset of color cubes, showing accurate detection and classification
+</p>
 
 ## Project Structure
 
